@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BookStore.Domain
 {
-    public class Book
+    public class Book //POCO Livro
     {
         public Book()
         {
@@ -21,6 +21,6 @@ namespace BookStore.Domain
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
 
-        public ICollection<Author> Authors;
+        public ICollection<Author> Authors { get; set; }
     }
 }

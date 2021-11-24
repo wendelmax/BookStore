@@ -2,7 +2,7 @@
 
 namespace BookStore.Domain
 {
-    public class Author
+    public class Author //POCO Autor
     {
         public Author()
         {
